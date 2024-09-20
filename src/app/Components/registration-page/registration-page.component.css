@@ -1,0 +1,26 @@
+.registrationParent{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7edf2;
+
+}
+.registrationChild{
+    width: 40%;
+    height: 60vh;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 20px 20px 15px #d3d7db;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.registrationChild .logoSection{
+    width: 50%;
+    margin-bottom: 50px;
+}

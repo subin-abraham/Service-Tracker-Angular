@@ -1,0 +1,6 @@
+.newRequest{
+    display: flex;
+}
+.newRequest button{
+    width: 200px;
+}

@@ -1,0 +1,54 @@
+.parent {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftSection {
+    display: flex;
+    align-items: center;
+}
+
+.leftSection .imageSection {
+    width: 220px;
+    border-right: 1px solid black;
+    margin-right: 10px;
+
+
+}
+
+.leftSection .imageSection img {
+    width: 200px;
+    margin-left: 10px;
+
+}
+
+.rightSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightSection button {
+    margin-right: 10px;
+    width: 70px;
+    height: 40px;
+    border-radius: 50px;
+}
+.rightSection .buttonTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 70px;
+    border-left: 1px solid black;
+}
+
+.rightSection .buttonTwo button {
+    margin-right: 10px;
+    width: 70px;
+    height: 40px;
+    margin-left: 10px;
+}

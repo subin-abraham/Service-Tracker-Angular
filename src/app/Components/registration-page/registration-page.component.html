@@ -1,0 +1,22 @@
+<div class="registrationParent">
+    <div class="registrationChild p-5">
+        <div class="logoSection">
+            <img src="../../../assets/jotform-logo.svg" alt="">
+        </div>
+        <div class="input-group mb-3 w-75">
+            <input [(ngModel)]="name" type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default" placeholder="Name">
+        </div>
+        <div class="input-group mb-3 w-75">
+            <input [(ngModel)]="userName" type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default" placeholder="Username">
+        </div>
+        <div class="input-group mb-3 w-75">
+            <input [(ngModel)]="password" type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default" placeholder="Password">
+        </div>
+        <button type="button" class="btn btn-primary" (click)="register()">Register</button>
+        <div *ngIf="registerErrorMessage" class="error">{{ registerErrorMessage }}</div>
+        <div *ngIf="registerSuccessMessage" class="success">{{ registerSuccessMessage }}</div>
+    </div>
+</div>
